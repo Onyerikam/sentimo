@@ -1,0 +1,17 @@
+.aboutUsBody {
+  background-color: #e7eeed;
+}
+
+.profileCardParent {
+  display: flex;
+  flex-direction: column;
+}
+
+.profileCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  width: 100%;
+  height: 100%;
+}

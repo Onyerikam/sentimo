@@ -1,0 +1,245 @@
+:root {
+    /* --altColor: #3AB0FF; */
+    --altColorBgstart: #0073e6;
+    --altColorBgend: #86b4e2;
+    --altTextColor: #F2EBE9; /* Change to black to make it like before */
+}
+
+@font-face {
+    font-family: 'varela';
+    src: url('./../../assets/fonts/varela.ttf');
+}
+
+
+.altText {
+    color: var(--altTextColor);
+    background: linear-gradient(45deg, var(--altColorBgstart), var(--altColorBgend));
+}
+
+/* Maybe use for alternate if need..  
+.altText2 {
+    color: var(--altTextColor);
+    background: linear-gradient(-45deg, var(--altColor), transparent);
+} */
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+}
+
+@keyframes popup {
+    0% {
+        opacity: 0;
+        transform: translateY(80%);
+    }
+    25% {
+        opacity: 0.1;
+    }
+    50% {
+        opacity: 0.5;
+        transform: translateY(0%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+.popup-anim {
+    animation: popup 0.5s ease-in-out;
+}
+
+.lottie-animation {
+    display: flex;
+    width: 50%;
+    height: 50%;
+    /* justify-content: flex-start; */
+}
+
+img.lottie-animation {
+    margin: 2vmin;
+    width: 90%;
+    height: 50%;
+}
+
+.home-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-title-container, .confused-point {
+    flex-basis: 60%;
+    margin: 0 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-title {
+    font-family: 'Ubuntu', sans-serif;
+    /* font-size: 70px; */
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    line-height: 100px;
+    margin: 0px;
+}
+
+.home-title-desc {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-top: 10px 10px 10px 10px;
+}
+
+.confused-header, .how-it-works-header, .extra-features-heading {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 3.2rem;
+    display: flex;
+    justify-content: center;
+    padding: 2rem 5px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.confused-point-container, .solution-container, .extra-features-container {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: var(--altColor); */
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.solution-container, .extra-features-container {
+    background-color: #fff;
+}
+
+.extra-features-container {
+    flex-direction: column;
+}
+
+.confused-points {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.confused-point {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.how-it-works-container {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0;
+}
+
+.how-it-works-steps {
+    font-family: 'Montserrat', sans-serif;
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;  
+    padding: 0 10px;
+}
+
+.step, .extra-features-content {
+    display: flex;
+    flex-direction: column;
+    /* word-break: break-all; */
+    margin: 1.5rem;
+    max-width: 20rem;
+}
+
+.icon {
+    max-height: max(100px, 20vh);
+    margin: 0 auto;
+}
+
+.emotesBullet {
+    font-size: 2rem;
+}
+
+.step-content, .step-header {
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+    justify-content: center;
+}
+
+.step-header {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding: 1rem;
+}
+
+.extra-features {
+    /* width: 90vw; */
+    padding: 0 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer {
+    background-color: #303846;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'varela';
+}
+
+@media (max-width: 700px) {
+    .home-heading, .confused-point-container, .solution-container {
+        flex-wrap: wrap-reverse;
+    }
+
+    .home-title-container {
+        max-height: 50%;
+        min-width: 90%;
+    }
+
+    .home-title, .confused-header, .how-it-works-header, .extra-features-heading {
+        font-size: 2.6rem;
+    }
+
+    .home-title-desc, .confused-point {
+        font-size: 1rem;
+    }
+
+    .confused-header {
+        padding-top: 0;
+        padding-bottom: 0.5rem;
+    }
+
+    .confused-point {
+        display: flex;
+        margin: 5px 10px;
+    }
+}
+
+@media (max-width: 450px) {
+    .home-title, 
+    .confused-header, .extra-features-heading, .how-it-works-header {
+        font-size: 2.6rem;
+        line-height: 8rem;
+    }
+
+    .how-it-works-header {
+        line-height: 3rem;
+        letter-spacing: 2px;
+    }
+
+    .home-title-desc, 
+    .confused-point {
+        font-size: 0.9rem;
+        margin: 2px 10px;
+    }
+}

@@ -1,0 +1,85 @@
+:root {
+  --movieCardHeight: max(50vh, 250px);
+  --movieCardWidth: 100%;
+  --posterImageUrl: "";
+}
+
+@font-face {
+  font-family: "Coda";
+  src: url("./../../assets/fonts/Coda-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Lalezar";
+  src: url("./../../assets/fonts/Lalezar-Regular.ttf");
+}
+
+.movieCardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100%;
+  max-width: var(--movieCardWidth);
+}
+
+.posterContainer {
+  width: var(--movieCardWidth);
+  height: var(--movieCardHeight);
+}
+
+.genre {
+  display: flex;
+  border: 2px solid #fff;
+  border-left: 0;
+  border-radius: 10px 0 10px 0;
+  flex-wrap: wrap;
+}
+
+.genre-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.movieData {
+  background-color: rgb(47, 39, 39);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  width: var(--movieCardWidth);
+  height: 227px;
+}
+
+.movieDetailContainer > * {
+  padding: min(8px, 3vmin);
+  font-family: "Lalezar", cursive;
+  font-size: min(9vmin, 18px);
+}
+
+.movieName {
+  font-size: min(10vmin, 25px);
+  text-transform: uppercase;
+  font-family: "Coda", cursive;
+  font-weight: bold;
+}
+
+.movieOverview {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.center-dot {
+  height: min(2vmin, 5px);
+  width: min(2vmin, 5px);
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  align-self: center;
+  margin: auto min(2vmin, 8px);
+}
+
+.releaseDate {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}

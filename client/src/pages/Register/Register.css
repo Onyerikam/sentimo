@@ -1,0 +1,184 @@
+.register-container {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  position: relative;
+  justify-content: space-around;
+  align-items: center;
+  height: fit-content;
+  min-height: 100vh;
+}
+.login-logo-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.header {
+  margin: 10px;
+  margin-right: 0px;
+  margin-left: 20px;
+}
+
+.register-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.register-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.register-text-container {
+  width: 100%;
+}
+
+.login-container {
+  border: none;
+  padding: 0;
+}
+
+.name-data-container {
+  display: flex;
+  margin-top: 30px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* Small useful classes */
+.mui-btn-like {
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.75;
+  letter-spacing: 0.01em;
+  min-width: 64px;
+  padding: 6px 0 6px 8px;
+}
+
+.mh {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.heading {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 1000;
+}
+
+.small-text {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.medium-text {
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.large-text {
+  font-size: 40px;
+  letter-spacing: 2px;
+  line-height: 40px;
+}
+
+.dot {
+  font-size: 70px;
+  color: #508afa;
+}
+
+@media (max-width: 990px) {
+  .register-header img {
+    display: none;
+  }
+}
+
+@media (max-width: 780px) {
+  .register-form-container {
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+
+  .only-form {
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+  }
+
+  .name-data-container {
+    flex-direction: column;
+  }
+
+  .fname-field {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .lname-field {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .register-header {
+    justify-content: center;
+  }
+
+  .header {
+    margin: 5px;
+  }
+
+  .register-form-container {
+    flex-basis: 100%;
+  }
+
+  .mob-mid {
+    display: flex;
+    justify-content: center;
+  }
+
+  .large-text {
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 40px;
+  }
+
+  .dot {
+    font-size: 40px;
+    color: #508afa;
+  }
+}
+
+@media (max-width: 460px) {
+  .only-form {
+    width: 100%;
+  }
+
+  .register-form-container {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .large-text {
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 20px;
+  }
+
+  .medium-text {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .dot {
+    font-size: 30px;
+    color: #508afa;
+  }
+}

@@ -1,0 +1,126 @@
+@font-face {
+  font-family: 'varela';
+  src: url('./../../assets/fonts/varela.ttf');
+}
+.profileCardContainer {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem 0;
+  /* min-height: 80vh; */
+}
+
+.personData {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 1vw 0 0 1vw;
+  width: 50%;
+}
+
+.personName, .personWhoAreYou, .personContent {
+  padding-bottom: 20px;
+  width: 100%;
+  text-align: left;
+  font-family: 'varela', monospace;
+}
+
+.personName, .personWhatWork {
+  color: #1544c0;
+  font-family: 'varela', monospace;
+}
+
+.personName {
+  font-weight: bold;
+  font-size: 6vw;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  padding-bottom: 2rem;
+}
+
+.personWhatWork {
+  width: 100%;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2.5vmin;
+}
+
+.personWhoAreYou {
+  font-weight: 600;
+  font-size: 2vmax;
+}
+
+.personContent {
+  margin-top: 0;
+  font-size: 1.5vmax;
+  /* word-break: break-all; */
+}
+
+.profileCardSocial {
+  margin-top: 0;
+}
+
+.profileCardSocial > a {
+  text-decoration: none;
+  margin: 0px 10px;
+}
+
+.pfpContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatars {
+  max-height: 330px;
+  max-width: 330px;
+}
+
+@media (max-width: 700px) {
+  .avatars {
+    height: 300px;
+    width: 300px;
+  }
+
+  .personData {
+    width: 80%;
+  }
+
+  .personName {
+    /* font-size: 10vw; */
+    letter-spacing: 3.5px;
+  }
+
+  .personWhatWork {
+    /* font-size: 15px; */
+    padding-bottom: 5px;
+    padding-top: 10px;
+  }
+}
+
+@media (max-width: 400px) {
+  .avatars {
+    height: 250px;
+    width: 250px;
+  }
+  
+  .personName {
+    letter-spacing: 2px;
+    font-size: 9vmin;
+  }
+
+  .personWhatWork, .personContent {
+    font-size: 4vmin;
+  }
+}
+
+/* Font fix on Height change */
+@media (max-height: 400px) {
+  .personData {
+    width: 80%;
+  }
+}
