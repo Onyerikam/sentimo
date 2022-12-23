@@ -1,4 +1,8 @@
-const whitelist = ['http://localhost:3000', 'http://localhost:3001','http://localhost:8000', 'https://sentimo-frontend.onrender.com/'];
+const newLocal = 'http://localhost:3000';
+const newLocal_1 = 'http://localhost:3001';
+const newLocal_2 = 'https://sentimo.onrender.com/, ';
+const newLocal_3 = 'https://sentimo-frontend.onrender.com/';
+const whitelist = [newLocal, newLocal_1, newLocal_2, newLocal_3,];
 
 export const corsOptions = {
     origin: (origin, callback) => {
