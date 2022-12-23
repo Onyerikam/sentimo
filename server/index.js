@@ -9,7 +9,7 @@ import statsRouter from './routers/stats/index.js';
 import profileRouter from './routers/profile/index.js';
 import './crons/DailyStat.js';
 
-const port = process.env.PORT || 5001;
+const port = process.env.PORT;
 const app = express();
 app.use(express.json()); //parse req.body to json 
 
