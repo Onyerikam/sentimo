@@ -1,4 +1,4 @@
-const baseUrl = process.env.REACT_APP_BASE_URL;
+const baseUrl = "https://sentimo-backend.onrender.com/";
 
 export const get = async (url) => {
     try{
