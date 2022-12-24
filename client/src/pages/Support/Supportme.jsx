@@ -1,6 +1,5 @@
-import React, {lazy} from "react";
+import React from "react";
 import { Sidebar } from "./../../components";
-import { data } from './aboutUsdata.js';
 import { Slide } from "react-awesome-reveal";
 
 import './Supportme.css';
