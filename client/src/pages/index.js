@@ -8,4 +8,3 @@ export { AboutUs } from './AboutUs';
 export { Recommendation } from './Recommendation';
 export { Favorite } from './Favorite';
 export { Protected } from './Protected';
-export { Support } from './Support';
