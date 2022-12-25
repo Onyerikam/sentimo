@@ -104,8 +104,8 @@ export default function Register(props) {
               minHeight: "100px",
             }}
           />
-            <div className="register-header" style={{textDecoration: 'bold', marginRight: '100px', marginLeft: '10px', fontSize: '15.67px'}}>
-              Create a new account <span className="login-dot" style={{textDecoration: 'bold', marginRight: '100px', marginLeft: '10px', marginBottom: '32px'}}>.</span>
+            <div className="register-header" style={{textDecoration: 'bold', marginRight: '100px', marginLeft: '10px', fontSize: '20px'}}>
+              Create a new account <span className="login-dot">.</span>
             </div>
         </div>
 
@@ -116,7 +116,7 @@ export default function Register(props) {
 
             <div className="login-container mv mob-mid">
               <br/>
-              <span className="mui-btn-like" style={{fontSize: '15px'}}>Already a member? </span>
+              <span className="mui-btn-like" style={{fontSize: '17px'}}>Already a member? </span>
               <Button>
                 <Link href="/login" style={{textDecoration: 'none', textAlign: 'center', marginRight: '25px', marginBottom: '15px', marginTop: '14px'}}>Login</Link>
               </Button>
