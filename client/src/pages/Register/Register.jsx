@@ -104,8 +104,8 @@ export default function Register(props) {
               minHeight: "100px",
             }}
           />
-            <div className="register-header" style={{textDecoration: 'bold', marginRight: '100px', marginLeft: '10px', fontSize: '24px'}}>
-              Create a new account <span className="dot" style={{textDecoration: 'bold', marginRight: '100px', marginLeft: '10px', marginBottom: '32px'}}>.</span>
+            <div className="register-header" style={{textDecoration: 'bold', marginRight: '100px', marginLeft: '10px', fontSize: '14px'}}>
+              Create a new account <span className="login-dot" style={{textDecoration: 'bold', marginRight: '100px', marginLeft: '10px', marginBottom: '32px'}}>.</span>
             </div>
         </div>
 
