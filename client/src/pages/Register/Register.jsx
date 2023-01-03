@@ -116,7 +116,7 @@ export default function Register(props) {
               <br/>
               <span className="mui-btn-like" style={{fontSize: '20px', marginRight: '10px'}}>Already a member?</span>
               <Button>
-                <Link href="/login" style={{fontSize: '18px', textDecoration: 'none', marginRight: '5px'}}>Login</Link>
+                <Link href="/login" style={{fontSize: '18px', textDecoration: 'none', marginRight: '6px'}}>Login</Link>
               </Button>
             </div>
           </div>
