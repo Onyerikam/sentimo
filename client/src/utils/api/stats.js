@@ -1,5 +1,4 @@
 import { get, post } from "./rest"
-import { fetchNotes } from "./notes";
 
 export const fetchStats = async (date, days) => {
     const res = await get(`stats?date=${date.toLocaleDateString()}&days=${days}`)

@@ -25,7 +25,7 @@ export default function NoteInput(props) {
             console.log("Note posted");
             props.close();
         }else if(res.response.status===405){
-            //limit reached open premium sub modal
+            // limit reached open premium sub modal
             toast.info("Basic subscriber can add 2 notes per day")
         } else {
             console.log("err", res.data.msg);

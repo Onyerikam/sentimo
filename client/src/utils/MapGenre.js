@@ -7,7 +7,7 @@ export const MapGenre = (emotion) => {
             maxIndex = i;
         }
     }
-    //Happy, Sad, Angry, Surprise, Fear
+    // Happy, Sad, Angry, Surprise, Fear
     const SelectedGenres = [
         ['Action', 'Fantasy', 'Crime', 'Western'],
         ['Comedy', 'Drama', 'Music', 'TV Movie'],

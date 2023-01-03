@@ -6,7 +6,7 @@ import { toast } from 'react-toastify';
 export default function NoteEdit({ close, editNoteId, setNotesEdited, notesEdited }) {
     const [title, setTitle] = useState('');
     const [content, setContent] = useState('');
-    const [textLimit, setTextLimit] = useState(1000)
+    const [textLimit, setTextLimit] = useState(800)
     
     const editNote = async () => {
         if (title.trim() === "" || content.trim() === "") {

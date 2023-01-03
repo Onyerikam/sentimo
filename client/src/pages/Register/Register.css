@@ -62,6 +62,12 @@
     margin-bottom: 0;
 }
 
+.login-dot {
+  font-size: 1em;
+  color: #508afa;
+  font-size: 40px;
+}
+
 .heading {
   font-family: "Ubuntu", sans-serif;
   font-weight: 1000;
