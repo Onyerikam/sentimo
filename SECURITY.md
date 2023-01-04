@@ -2,20 +2,19 @@
 
 ## Supported Versions
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+This are the versions of my project that are currently being supported with security updates.
 
 | Version | Supported          |
 | ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+| 1.0.2   | :white_check_mark: |
+| 1.0.4   | :x:                |
+| 1.0.3   | :white_check_mark: |
+| 1.0.5   | :white_check_mark  |
 
 ## Reporting a Vulnerability
 
-Use this section to tell people how to report a vulnerability.
+To report a vulnerability join the dicussion and chat with the community, our team will reach out to you as soon as possible
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+We update after every 2-3 week
+
+We promise to get to the bottom of the matter of the vulnerability no matter what happens

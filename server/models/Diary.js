@@ -1,8 +1,7 @@
 import mongoose from "mongoose";
 const { Schema } = mongoose;
 
-//this diary contains all the notes 
-//of the user with userId
+//this diary contains all the notes of the user with userId
 
 const diarySchema = new Schema({
     user:{

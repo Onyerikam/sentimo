@@ -12,7 +12,7 @@ const userSchema = new Schema({
         required: true
     },
 
-    //these details can be added later from '/profile'
+    // these details can be added later from '/profile'
     email: String,
     firstName: String,
     lastName: String,
@@ -24,7 +24,7 @@ const userSchema = new Schema({
         enum: ['Male', 'Female']
     },
     dob: String,
-    //mandatory for authorization roles
+    // mandatory for authorization roles
     admin: {
         type: Boolean,
         default: false
