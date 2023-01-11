@@ -2,8 +2,8 @@ import React from "react";
 import { Link } from "@mui/material";
 import MailOutlinedIcon from "@mui/icons-material/MailOutlined";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import InstagramIcon from "@mui/icons-material/Instagram";
+import FacebookIcon from "@mui/icons-material/Facebook";
+import TwitterIcon from "@mui/icons-material/Twitter";
 import Divider from "./../../elements/Divider/Divider";
 
 import "./ProfileCard.css";
@@ -11,7 +11,7 @@ import "./ProfileCard.css";
 export default function ProfileCard({
   name = "Name",
   whatWork = "What Work do you do",
-  whoAreYou = "Who Are You",
+  whoAreYou = "Who am I ?",
   content = "More about you",
   socialLinks = ["#", "#", "#", "#"] /*Mail, Linkedin, Twitter, Github */,
   profileImg,
@@ -31,11 +31,11 @@ export default function ProfileCard({
           </Link>
 
           <Link href={socialLinks[1]}>
-            <LinkedInIcon sx={{ color: "black", fontSize: "40px" }} />
+            <FacebookIcon sx={{ color: "black", fontSize: "40px" }} />
           </Link>
 
           <Link href={socialLinks[2]}>
-            <InstagramIcon sx={{ color: "black", fontSize: "40px" }} />
+            <TwitterIcon sx={{ color: "black", fontSize: "40px" }} />
           </Link>
 
           <Link href={socialLinks[3]}>

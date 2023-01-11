@@ -1,6 +1,19 @@
 import React, {lazy} from 'react';
 import {Routes, Route} from 'react-router-dom'
-import { Home, Diary, Login, Register, Statistics, NoteStat, Profile, AboutUs, Recommendation, Favorite, Protected} from './pages';
+import { 
+  Home, 
+  Diary, 
+  Login, 
+  Register, 
+  Statistics, 
+  NoteStat, 
+  Profile, 
+  AboutUs, 
+  Recommendation, 
+  Favorite, 
+  Protected,
+  NotFound
+} from './pages';
 import { useLoading } from './utils/hooks/useLoading';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -15,7 +28,10 @@ function App() {
       <ToastContainer/>
       <LoadingScreen/>
       <Routes>
-        <Route path="/" element={<Home/>} />
+        <Route path="/" element={<Home />} />
+        <Route path="/*" element={<NotFound />} />
+
+        <Route path="*" element={<NotFound />} />
 
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />

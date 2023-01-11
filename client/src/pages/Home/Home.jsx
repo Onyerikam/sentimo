@@ -18,7 +18,7 @@ export default function Home() {
     <div className="home-container">
       <Sidebar />
       <footer className="text--center" style={{paddingTop: "10px", paddingBottom: "10px"}}>
-        <Link to="/aboutUs" style={{color: "#fff", textDecoration: "none"}}>Meet the Developer</Link>
+        <Link to="/aboutUs" style={{color: "#fff", textDecoration: "none"}}>Meet The Developer</Link>
       </footer>
           
       {/* HEADING SENTIMO AND ONE LINER */}
@@ -152,7 +152,7 @@ export default function Home() {
             <div className="extra-features-content">
               <Filter2RoundedIcon sx={{ fontSize: "3rem" }} />
               Scared about your privacy? Don't worry! You can opt to protect
-              your notes via Face Lock.
+              your notes via Face Lock (COMING SOON).
             </div>
             <div className="extra-features-content">
               <Filter3RoundedIcon sx={{ fontSize: "3rem" }} />

@@ -36,7 +36,8 @@ export const useLoading = () => {
 
             <Typography component={'h1'} sx={{color: '#FDFBF9'}}>{error}...</Typography>
           </div>
-          : null}
+          : null
+        }
       </>
     )
   }

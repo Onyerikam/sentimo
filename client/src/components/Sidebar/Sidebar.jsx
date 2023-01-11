@@ -156,7 +156,7 @@ const Sidebar = ({className, onMouseEnter, onMouseLeave}) => {
                 component={Link}
                 to="/login"
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: "white", display: "block" }}
+                sx={{ my: 2, color: "white", display: "block"}}
               >
                 Login
               </MenuItem>

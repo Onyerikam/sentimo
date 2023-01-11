@@ -23,7 +23,7 @@ export default function Protected() {
   return (
     <div>
       <Sidebar />
-      <LoadingScreen/>
+      <LoadingScreen />
       <div className="protected-container">
         {notes?.length === 0 ? (
           <h1>No notes to display</h1>
