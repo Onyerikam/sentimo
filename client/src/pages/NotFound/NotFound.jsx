@@ -63,7 +63,7 @@ export default function NotFound() {
             <Fade
               triggerOnce
               style={{
-                marginLeft: "500px",
+                marginLeft: "540px",
                 marginBottom: "300px",
                 marginRight: "400px",
                 marginTop: "300px",
