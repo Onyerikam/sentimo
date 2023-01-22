@@ -1,4 +1,3 @@
-import sys
 import urllib.parse 
 import speech_recognition as sr 
 import text2emotion as te 
