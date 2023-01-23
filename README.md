@@ -8,15 +8,5 @@
 - Visit
 - https://sentimo-onyerikam.vercel.app/
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sentimo</title>
-</head>
-<body>
-    <iframe src="https://discordapp.com/widget?id=1067173036547125378&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
-</body>
-</html>
+## HOW TO REACH OUR COMMUNITY, DISCORD:
+<span><code>https://discord.com/invite/uB5wewQ2?utm_source=Discord%20Widget&utm_medium=Connect</code></span>
