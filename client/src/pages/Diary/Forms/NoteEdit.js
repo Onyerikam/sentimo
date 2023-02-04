@@ -13,7 +13,7 @@ export default function NoteEdit({ close, editNoteId, setNotesEdited, notesEdite
             toast.error("Title and content are required"); return;
         }
         if (content.length + title.length > textLimit) {
-            toast.warn("Text limit reached. Pay to get new notes"); return;
+            toast.warn("Text limit reached. Subcribe to get more notes per day"); return;
         }
         const res = await updateNoteSingle(title, content, editNoteId);
         if (res?.response?.status===200){
