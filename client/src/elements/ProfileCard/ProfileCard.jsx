@@ -13,7 +13,7 @@ export default function ProfileCard({
   whatWork = "What Work do you do",
   whoAreYou = "Who am I ?",
   content = "More about you",
-  socialLinks = ["#", "#", "#", "#"] /*Mail, Linkedin, Twitter, Github */,
+  socialLinks = ["#", "#", "#", "#"] /*Mail, Facebook, Twitter, Github */,
   profileImg,
 }) {
   return (
